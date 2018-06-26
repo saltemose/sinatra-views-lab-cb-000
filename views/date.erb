@@ -6,7 +6,13 @@
     </title>
   </head>
   <body>
-    <p><% date = DateTime.now %>The date is <%= date %></p>
+    <p><% date = DateTime.now
+          date.strftime("%A") = day
+          date.strftime("%B") = month
+          date.strftime("%d") = daynum
+          date.strftime("%A") = day
+          display_date =
+          %>The date is <%= date %></p>
 
   </body>
 </html>

@@ -7,10 +7,10 @@
   </head>
   <body>
     <p><% date = DateTime.now
-          date.strftime("%A") = day
-          date.strftime("%B") = month
-          date.strftime("%d") = daynum
-          date.strftime("%Y") = year %>
+          day = date.strftime("%A")
+          month = date.strftime("%B")
+          daynum = date.strftime("%d")
+          year = date.strftime("%Y") %>
         <%= "The date is " + "day" + ", " + "month" + " daynum" + ", " + "year" %></p>
 
   </body>
